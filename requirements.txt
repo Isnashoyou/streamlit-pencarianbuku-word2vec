@@ -1,5 +1,6 @@
 streamlit
 gensim==4.3.0
+scipy
 pandas==1.5.3
 nltk==3.8.1
 scikit-learn==1.5.2
