@@ -1,0 +1,7 @@
+streamlit
+gensim
+pandas
+scikit-learn
+nltk
+openpyxl
+Sastrawi
