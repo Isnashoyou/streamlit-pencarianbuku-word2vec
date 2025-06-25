@@ -17,9 +17,11 @@ from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFacto
 from gensim.models import Word2Vec
 from nltk.tokenize import word_tokenize
 import nltk
-
-nltk.download('punkt_tab')
-
+import nltk
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
 
 # === Konfigurasi Awal Streamlit ===
 st.set_page_config(page_title="Sistem Pencarian Buku", layout="wide")
