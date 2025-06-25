@@ -8,7 +8,6 @@ Original file is located at
 """
 
 import streamlit as st
-st.write("App loaded!")
 import pandas as pd
 import numpy as np
 import ast
