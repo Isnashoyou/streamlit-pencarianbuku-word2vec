@@ -8,7 +8,7 @@ Aplikasi ini merupakan sistem pencarian buku berbasis semantik yang dikembangkan
 streamlit run app.py
 
 ## Deployment
-Aplikasi ini dapat diakses di: []()
+Aplikasi ini dapat diakses di: [deployment-pencarian-buku](https://app-pencarianbuku-word2vec.streamlit.app/)
 
 ## Referensi
 - Model Word2Vec dilatih menggunakan 717 sampel data buku dari website iBI Library yang telah melalui preprocessing teks.
