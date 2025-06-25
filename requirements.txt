@@ -1,7 +1,8 @@
 streamlit
-gensim==4.2.0
-pandas
-scikit-learn
-nltk
+gensim==4.3.0
+pandas==1.5.3
+nltk==3.8.1
+scikit-learn==1.5.2
+Sastrawi==1.0.1
 openpyxl
-Sastrawi
+
